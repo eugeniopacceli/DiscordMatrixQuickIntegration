@@ -103,7 +103,7 @@ const localStorage = new LocalStorage(path.join(__dirname, config.localStorage))
             matrixReady = true;
         } else {
             // Something went wrong. We exit.
-            console.log('Matrix SYNC did not progress into the expected PREPARED phase (new sync state %s from %s). We exit.', state, prevState);
+            console.log('Matrix SYNC did not progress into the expected PREPARED phase (new sync state %s from %s). Try resetting the token. We exit.', state, prevState);
             process.exit(1);
         }
     });
@@ -120,8 +120,8 @@ const localStorage = new LocalStorage(path.join(__dirname, config.localStorage))
 
         // Sets up the listener
         discordClient.on('message', msg => {
-            if (msg.channel.id != config.discord.roomId) {
-                return; // only listens to the desired bridge channel
+            if (msg.channel.id != config.discord.roomId || msg.author.id == discordClient.user.id) {
+                return; // only listens to the desired bridge channel also not our own messages
             }
 
             if (matrixReady) {

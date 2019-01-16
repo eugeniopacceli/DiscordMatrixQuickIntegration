@@ -18,7 +18,7 @@ Tested on Node.Js 11.6.0.
 * `node index.js` runs the script.
 
 # Reference
-[Discord.Js](https://discord.js.org/)
-[Matrix JS Sdk](https://github.com/matrix-org/matrix-js-sdk)
-[Discord API Specs](https://discordapp.com/developers/docs/intro)
-[Matrix API Specs](https://matrix.org/docs/spec/)
+* [Discord.Js](https://discord.js.org/)
+* [Matrix JS Sdk](https://github.com/matrix-org/matrix-js-sdk)
+* [Discord API Specs](https://discordapp.com/developers/docs/intro)
+* [Matrix API Specs](https://matrix.org/docs/spec/)
