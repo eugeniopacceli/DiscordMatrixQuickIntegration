@@ -1,0 +1,14 @@
+{
+    "localStorage": "localStorage (name of the folder in which the LocalStorage module will write to within the root directory)",
+    "matrix": {
+        "url": "https://matrix.org (server url)",
+        "user": "Matrix username",
+        "password": "Matrix password",
+        "device": "identificable device name for you",
+        "roomId": "Matrix room id starting with !"
+    },
+    "discord": {
+        "token": "your discord bot token",
+        "roomId": "Discord room id in the format of Twitter Snowflake"
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "discordmatrixquickintegration",
+  "version": "1.0.0",
+  "description": "A minimalistic bot to bridge a Matrix text channel to a Discord text channel and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugeniopacceli/DiscordMatrixQuickIntegration.git"
+  },
+  "keywords": [
+    "matrix",
+    "discord",
+    "bridge",
+    "text",
+    "integration"
+  ],
+  "author": "Eugênio Pacceli Reis da Fonseca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugeniopacceli/DiscordMatrixQuickIntegration/issues"
+  },
+  "homepage": "https://github.com/eugeniopacceli/DiscordMatrixQuickIntegration#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "matrix-js-sdk": "^0.14.2",
+    "node-localstorage": "^1.3.1"
+  }
+}
