@@ -5,10 +5,19 @@
         "user": "Matrix username",
         "password": "Matrix password",
         "device": "identificable device name for you",
-        "roomId": "Matrix room id starting with !"
+        "roomId": "Matrix room id starting with !",
+        "avatarResizeWidth": 130,
+        "avatarResizeHeight": 130
     },
     "discord": {
         "token": "your discord bot token",
-        "roomId": "Discord room id in the format of Twitter Snowflake"
-    }
+        "roomId": "Discord room id in the format of Twitter Snowflake",
+        "hookName": "DiscordMatrixIntegration"
+    },
+    "supportedAvatarExtensions": [
+        "png",
+        "jpeg",
+        "jpg",
+        "gif"
+    ]
 }
